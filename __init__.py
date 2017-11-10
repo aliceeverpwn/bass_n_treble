@@ -24,7 +24,6 @@ from base_n_treble.models.user import User
 db = DAL(app)
 auth = Auth(
         app, db, usermodel=User
-        ctf.flag = {{careful_what_you_commit_in_public_repo}}
 )
 
 # adding sessions and authorization handlers
